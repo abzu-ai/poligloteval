@@ -23,3 +23,7 @@ Run the evals script
 ```bash
 > python evals_f1.py
 ```
+
+# Look at the predictions
+
+You can also look at some of the results in the results.ipynb notebook and run some examples.
