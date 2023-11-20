@@ -1,0 +1,7 @@
+transformers
+datasets
+accelerate
+einops
+scikit-learn
+nltk
+tqdm
