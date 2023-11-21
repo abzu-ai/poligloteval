@@ -73,8 +73,8 @@ def replace_none(row):
             row[key] = "None"
     return row
 # %%
-xquad_ca = load_dataset("data", data_files="xquad_ca.csv", split="train[:10]").map(replace_none)
-xquad_en = load_dataset("data", data_files="xquad_en.csv", split="train[:10]").map(replace_none)
+xquad_ca = load_dataset("data", data_files="xquad_ca.csv", split="train").map(replace_none)
+xquad_en = load_dataset("data", data_files="xquad_en.csv", split="train").map(replace_none)
 
 # Apply the function to the dataset
 results_en = xquad_en.map(compute_metrics)
