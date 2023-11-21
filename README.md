@@ -3,6 +3,7 @@
 At Abzu, we frequently explore the idea of expanding our chat agents’ capabilities to include multiple languages. The critical questions we face include the cost of such an expansion and whether the model would retain its logical skills. Our aim is to delve into these aspects by examining and contrasting the Falcon and Aguila models.
 
 # How to reproduce the results
+
 Clone the repository and install requirements in a clean venv
 ```bash
 > python -m venv venv
@@ -22,6 +23,12 @@ Run the evals script
 
 ```bash
 > python evals_f1.py
+```
+
+Run the scafalcon results
+
+```bash
+> python scafalcon.py
 ```
 
 # Look at the predictions
