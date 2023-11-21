@@ -5,3 +5,6 @@ einops
 scikit-learn
 nltk
 tqdm
+pyonmttok
+ctranslate2
+sacremoses
