@@ -1,0 +1,9 @@
+model,task,lang,f1 (mean)
+aguila,xquad,ca,0.5073633196709119
+aguila,xquad,en,0.5238705663871209
+falcon,xquad,ca,0.4774400761130125
+falcon,xquad,en,0.7501670367534788
+scafalcon,xquad,ca,0.573133868894637
+aguila,catalanqa,ca,0.5908784685964091
+falcon,catalanqa,ca,0.47012731212491854
+scafalcon,catalanqa,ca,0.5600488399620865
